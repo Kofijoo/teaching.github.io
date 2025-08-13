@@ -11,7 +11,7 @@
   <meta property="og:title" content="Joshua Agyekum - Early Childhood Educator">
   <meta property="og:description" content="Award-winning Early Childhood Educator specializing in multilingual education and educational technology">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kofijoo.github.io/myresume.github.io/">
+  <meta property="og:url" content="https://kofijoo.github.io/teaching.github.io/">
   
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/modern-style.css">
@@ -26,7 +26,7 @@
         <span>Menu</span>
       </button>
       <ul class="navbar-nav" id="navbar-nav">
-        <li><a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" download>📄 Resume</a></li>
+        <li><a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" download>Resume</a></li>
         <li><a href="./no.html">🇳🇴 Norsk</a></li>
         <li><a href="#contact" onclick="openModal()">Contact</a></li>
       </ul>
@@ -43,17 +43,19 @@
             <h1>Joshua Agyekum</h1>
             <h2>Early Childhood Educator</h2>
             <p class="location">Norway (Permanent Residence + Valid Work Permit)</p>
-            <a href="mailto:joshuaagyekum21@gmail.com" class="email">joshuaagyekum21@gmail.com</a>
-            <p class="mt-2 text-secondary">+47 46399384</p>
+            <a href="mailto:joshuaagyekum21@gmail.com" class="email">joshuaagyekum21@gmail.com | +47 46399384</a>
             <p class="text-secondary mb-3">Languages: English (Fluent), Norwegian (B1-B2)</p>
-            <p class="text-secondary mb-3">🏆 Best Teacher Award | 🎓 M.Ed. Education Technology | 🧒 Kindergarten Experience</p>
             <div class="resume-buttons">
-              <a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" class="btn btn-primary" download>📄 English Resume</a>
-              <a href="./Joshua_Agyekum_CV_Norsk.pdf" target="_blank" class="btn btn-secondary" download>📄 Norsk CV</a>
+              <a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" class="btn btn-primary" download>English Resume</a>
+              <a href="./Joshua_Agyekum_CV_Norsk.pdf" target="_blank" class="btn btn-secondary" download>Norsk CV</a>
             </div>
           </div>
-          <div class="hero-image">
-            <img src="./images/pic.png" alt="Joshua Agyekum - Early Childhood Educator">
+          <div class="hero-media">
+            <video class="hero-video" controls poster="./images/pic.png">
+              <source src="./video/web video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img src="./images/pic.png" alt="Joshua Agyekum - Early Childhood Educator" class="hero-image-fallback">
           </div>
         </div>
       </div>
@@ -107,6 +109,20 @@
       </div>
     </section>
 
+    <!-- Photo Gallery -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Professional Moments</h2>
+        <div class="photo-gallery">
+          <img src="./images/pic1.jpg" alt="Teaching moment 1" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic2.jpg" alt="Teaching moment 2" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic3.jpg" alt="Teaching moment 3" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic4.jpg" alt="Teaching moment 4" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic5.jpg" alt="Teaching moment 5" class="gallery-image" onclick="openCertificate(this.src)">
+        </div>
+      </div>
+    </section>
+
     <!-- Professional Experience -->
     <section class="section">
       <div class="container">
@@ -117,8 +133,6 @@
           <p class="text-secondary mb-1">Wolt Market Center, Oslo | 2024–2025</p>
           <ul class="achievement-list">
             <li>Delivered high-quality service to diverse Norwegian customer base</li>
-            <li>Gained teamwork and organizational skills applicable in education settings</li>
-            <li>Developed cultural competence working in Norwegian workplace environment</li>
           </ul>
         </div>
 
@@ -127,8 +141,6 @@
           <p class="text-secondary mb-1">First Talk EduCare, Changxing, China | 2021–2022</p>
           <ul class="achievement-list">
             <li>Teaching English with Jolly Phonics methodology to young children</li>
-            <li>Developed age-appropriate learning activities for kindergarten students</li>
-            <li>Supported early literacy development through phonics-based instruction</li>
           </ul>
         </div>
 
@@ -137,18 +149,14 @@
           <p class="text-secondary mb-1">ALO7 Education, Ningbo, China | 2020–2021</p>
           <ul class="achievement-list">
             <li>Designed interactive STEM lessons using digital tools and virtual classrooms</li>
-            <li>Taught international students with varied learning needs and backgrounds</li>
-            <li>Integrated educational technology to enhance student engagement and learning outcomes</li>
           </ul>
         </div>
 
         <div class="card mb-4">
-          <h3 class="font-semibold text-primary">Part-Time Tutor 🏆</h3>
+          <h3 class="font-semibold text-primary">Part-Time Tutor</h3>
           <p class="text-secondary mb-1">Brainhill International School, Ghana | 2018–2019</p>
           <ul class="achievement-list">
-            <li><strong>Best Teacher Award (2019)</strong> for excellence in early primary teaching</li>
             <li>Taught all core subjects to Basic 3 pupils with comprehensive approach</li>
-            <li>Developed effective lesson plans and tracked student progress systematically</li>
           </ul>
         </div>
 
@@ -157,8 +165,6 @@
           <p class="text-secondary mb-1">Kaneshie Awudome JHS, Ghana | 2018–2019</p>
           <ul class="achievement-list">
             <li>Supported classroom management and daily instructional activities</li>
-            <li>Participated in educational research and documentation projects</li>
-            <li>Assisted in curriculum implementation and student assessment procedures</li>
           </ul>
         </div>
 
@@ -166,56 +172,13 @@
           <h3 class="font-semibold text-primary">Math & Science Tutor</h3>
           <p class="text-secondary mb-1">Global Access Academy, Ghana | 2013–2014</p>
           <ul class="achievement-list">
-            <li>Chaired Academic Board and led staff recruitment initiatives</li>
             <li>Taught STEM subjects to primary students with engaging methodologies</li>
-            <li>Coordinated academic planning and educational program development</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Skills & Certifications -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Skills & Certifications</h2>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h3>🧒 Early Childhood Education</h3>
-            <ul>
-              <li>Play-based learning methodologies</li>
-              <li>Kindergarten classroom management</li>
-              <li>Child observation and assessment</li>
-              <li>Inclusive education strategies</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>🌍 Language & Communication</h3>
-            <ul>
-              <li><strong>TEFL Certified</strong> (120 hours, High Distinction)</li>
-              <li><strong>Norwegian B1-B2</strong> (Official certification)</li>
-              <li>Jolly Phonics methodology</li>
-              <li>Multilingual instruction</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>💻 Educational Technology</h3>
-            <ul>
-              <li><strong>M.Ed. Education Technology</strong></li>
-              <li>Digital learning tools and platforms</li>
-              <li>Interactive STEM content creation</li>
-              <li>Virtual classroom management</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>📚 Professional Development</h3>
-            <ul>
-              <li>Operations Management Certificate</li>
-              <li>Educational Research Methods</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Education -->
     <section class="section">
@@ -225,22 +188,17 @@
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">M.Ed. – Education Technology</h3>
           <p class="text-secondary mb-1">Huzhou University, China | 2019–2022</p>
-          <p class="text-secondary">Thesis: Successfully defended master's thesis in Education Technology</p>
-          <p class="text-secondary">Certificate ID: 10347920202040136 | Nationally recognized by Chinese Ministry of Education</p>
           <p class="text-secondary"><strong>🔗 <a href="https://www.chsi.com.cn/xlrz/bgcx.jsp?v=12846877-223-F82B0102" target="_blank" class="text-primary">Verify Degree</a></strong></p>
         </div>
 
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">MSc – International Relations</h3>
           <p class="text-secondary mb-1">Norwegian University of Life Sciences, Norway | 2022–2024</p>
-          <p class="text-secondary">Courses: Economy, R Programming & Research Methods</p>
         </div>
 
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">B.Ed. – Early Childhood Education (First Class Honours)</h3>
           <p class="text-secondary mb-1">University of Education, Winneba, Ghana | 2014–2018</p>
-          <p class="text-secondary">CGPA: 3.69/4.00 | Research: Use of manipulative tools to improve basic arithmetic</p>
-          <p class="text-secondary">Awards: Best Graduating Student, Dean's Award of Excellence, Top 5 Student</p>
         </div>
       </div>
     </section>
@@ -297,34 +255,7 @@
       </div>
     </section>
 
-    <!-- Teaching Philosophy -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Teaching Philosophy</h2>
-        
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h3>Child-Centered Learning Approach</h3>
-            <ul>
-              <li><strong>Play-Based Learning:</strong> Utilizing play as the primary vehicle for learning and development</li>
-              <li><strong>Inclusive Education:</strong> Supporting all children regardless of background or learning needs</li>
-              <li><strong>Cultural Sensitivity:</strong> Respecting and incorporating diverse cultural perspectives</li>
-              <li><strong>Technology Integration:</strong> Using educational technology to enhance learning experiences</li>
-            </ul>
-          </div>
-          
-          <div class="skill-category">
-            <h3>Norwegian Education Values</h3>
-            <ul>
-              <li><strong>Outdoor Learning:</strong> Appreciation for nature-based education and outdoor activities</li>
-              <li><strong>Democratic Participation:</strong> Encouraging children's voice and participation in learning</li>
-              <li><strong>Holistic Development:</strong> Focus on social, emotional, and cognitive growth</li>
-              <li><strong>Multilingual Support:</strong> Supporting children from diverse linguistic backgrounds</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Certificates Gallery -->
     <section class="section">

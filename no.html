@@ -43,17 +43,19 @@
             <h1>Joshua Agyekum</h1>
             <h2>Barnehagelærer</h2>
             <p class="location">Norge (Fast oppholdstillatelse + Gyldig arbeidstillatelse)</p>
-            <a href="mailto:joshuaagyekum21@gmail.com" class="email">joshuaagyekum21@gmail.com</a>
-            <p class="mt-2 text-secondary">+47 46399384</p>
+            <a href="mailto:joshuaagyekum21@gmail.com" class="email">joshuaagyekum21@gmail.com | +47 46399384</a>
             <p class="text-secondary mb-3">Språk: Engelsk (Flytende), Norsk (B1-B2)</p>
-            <p class="text-secondary mb-3">🏆 Beste Lærer-pris | 🎓 M.Ed. Utdanningsteknologi | 🧒 Barnehageerfaring</p>
             <div class="resume-buttons">
-              <a href="./Joshua_Agyekum_CV_Norsk.pdf" target="_blank" class="btn btn-primary" download>📄 Norsk CV</a>
-              <a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" class="btn btn-secondary" download>📄 English Resume</a>
+              <a href="./Joshua_Agyekum_CV_Norsk.pdf" target="_blank" class="btn btn-primary" download>Norsk CV</a>
+              <a href="./Joshua_Agyekum_Education_Resume_Eng.pdf" target="_blank" class="btn btn-secondary" download>English Resume</a>
             </div>
           </div>
-          <div class="hero-image">
-            <img src="./images/pic.png" alt="Joshua Agyekum - Barnehagelærer">
+          <div class="hero-media">
+            <video class="hero-video" controls poster="./images/pic.png">
+              <source src="./video/web video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img src="./images/pic.png" alt="Joshua Agyekum - Barnehagelærer" class="hero-image-fallback">
           </div>
         </div>
       </div>
@@ -106,6 +108,20 @@
       </div>
     </section>
 
+    <!-- Photo Gallery -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Profesjonelle Øyeblikk</h2>
+        <div class="photo-gallery">
+          <img src="./images/pic1.jpg" alt="Undervisningsøyeblikk 1" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic2.jpg" alt="Undervisningsøyeblikk 2" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic3.jpg" alt="Undervisningsøyeblikk 3" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic4.jpg" alt="Undervisningsøyeblikk 4" class="gallery-image" onclick="openCertificate(this.src)">
+          <img src="./images/pic5.jpg" alt="Undervisningsøyeblikk 5" class="gallery-image" onclick="openCertificate(this.src)">
+        </div>
+      </div>
+    </section>
+
     <!-- Professional Experience -->
     <section class="section">
       <div class="container">
@@ -116,8 +132,6 @@
           <p class="text-secondary mb-1">Wolt Market Center, Oslo | 2024–2025</p>
           <ul class="achievement-list">
             <li>Leverte høykvalitetstjenester til mangfoldig norsk kundebase</li>
-            <li>Oppnådde teamarbeid og organisatoriske ferdigheter anvendelig i utdanningsinnstillinger</li>
-            <li>Utviklet kulturell kompetanse ved å jobbe i norsk arbeidsmiljø</li>
           </ul>
         </div>
 
@@ -126,8 +140,6 @@
           <p class="text-secondary mb-1">First Talk EduCare, Changxing, Kina | 2021–2022</p>
           <ul class="achievement-list">
             <li>Underviste engelsk med Jolly Phonics metodikk til små barn</li>
-            <li>Utviklet alderstilpassede læringsaktiviteter for barnehagebarn</li>
-            <li>Støttet tidlig leseferdighetsutvikling gjennom fonetikkbasert undervisning</li>
           </ul>
         </div>
 
@@ -136,18 +148,14 @@
           <p class="text-secondary mb-1">ALO7 Education, Ningbo, Kina | 2020–2021</p>
           <ul class="achievement-list">
             <li>Designet interaktive STEM-leksjoner ved bruk av digitale verktøy og virtuelle klasserom</li>
-            <li>Underviste internasjonale studenter med varierte læringsbehov og bakgrunner</li>
-            <li>Integrerte utdanningsteknologi for å forbedre studentengasjement og læringsutfall</li>
           </ul>
         </div>
 
         <div class="card mb-4">
-          <h3 class="font-semibold text-primary">Deltidslærer 🏆</h3>
+          <h3 class="font-semibold text-primary">Deltidslærer</h3>
           <p class="text-secondary mb-1">Brainhill International School, Ghana | 2018–2019</p>
           <ul class="achievement-list">
-            <li><strong>Beste Lærer-pris (2019)</strong> for eksellens i tidlig grunnskoleundervisning</li>
             <li>Underviste alle kjernefag til Basic 3-elever med omfattende tilnærming</li>
-            <li>Utviklet effektive leksjonsplaner og sporet studentfremgang systematisk</li>
           </ul>
         </div>
 
@@ -156,8 +164,6 @@
           <p class="text-secondary mb-1">Kaneshie Awudome JHS, Ghana | 2018–2019</p>
           <ul class="achievement-list">
             <li>Støttet klasseromsledelse og daglige undervisningsaktiviteter</li>
-            <li>Deltok i utdanningsforskning og dokumentasjonsprosjekter</li>
-            <li>Assisterte i læreplanimplementering og studentvurderingsprosedyrer</li>
           </ul>
         </div>
 
@@ -165,56 +171,13 @@
           <h3 class="font-semibold text-primary">Matematikk & Naturfag Lærer</h3>
           <p class="text-secondary mb-1">Global Access Academy, Ghana | 2013–2014</p>
           <ul class="achievement-list">
-            <li>Ledet akademisk styre og personalrekrutteringsinitiativ</li>
             <li>Underviste STEM-fag til grunnskoleelever med engasjerende metodikk</li>
-            <li>Koordinerte akademisk planlegging og utdanningsprogramutvikling</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Ferdigheter og Sertifiseringer -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Ferdigheter og Sertifiseringer</h2>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h3>🧒 Tidlig Barnehageutdanning</h3>
-            <ul>
-              <li>Lekbaserte læringsmetodikker</li>
-              <li>Barnehageklasseromsledelse</li>
-              <li>Barneobservasjon og vurdering</li>
-              <li>Inkluderende utdanningsstrategier</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>🌍 Språk og Kommunikasjon</h3>
-            <ul>
-              <li><strong>TEFL-sertifisert</strong> (120 timer, Høy utmerkelse)</li>
-              <li><strong>Norsk B1-B2</strong> (Offisiell sertifisering)</li>
-              <li>Jolly Phonics metodikk</li>
-              <li>Flerspråklig undervisning</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>💻 Utdanningsteknologi</h3>
-            <ul>
-              <li><strong>M.Ed. Utdanningsteknologi</strong></li>
-              <li>Digitale læringsverktøy og plattformer</li>
-              <li>Interaktiv STEM-innholdsskaping</li>
-              <li>Virtuell klasseromsledelse</li>
-            </ul>
-          </div>
-          <div class="skill-category">
-            <h3>📚 Profesjonell Utvikling</h3>
-            <ul>
-              <li>Driftsledelse sertifikat</li>
-              <li>Utdanningsforskningsmetoder</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Education -->
     <section class="section">
@@ -224,22 +187,17 @@
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">M.Ed. – Utdanningsteknologi</h3>
           <p class="text-secondary mb-1">Huzhou University, Kina | 2019–2022</p>
-          <p class="text-secondary">Avhandling: Vellykket forsvar av masteravhandling i utdanningsteknologi</p>
-          <p class="text-secondary">Sertifikat-ID: 10347920202040136 | Nasjonalt anerkjent av kinesisk utdanningsdepartement</p>
           <p class="text-secondary"><strong>🔗 <a href="https://www.chsi.com.cn/xlrz/bgcx.jsp?v=12846877-223-F82B0102" target="_blank" class="text-primary">Bekreft Grad</a></strong></p>
         </div>
 
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">MSc – Internasjonale Relasjoner</h3>
           <p class="text-secondary mb-1">Norges miljø- og biovitenskapelige universitet, Norge | 2022–2024</p>
-          <p class="text-secondary">Kurs: Økonomi, R-programmering og forskningsmetoder</p>
         </div>
 
         <div class="card mb-4">
           <h3 class="font-semibold text-primary">B.Ed. – Tidlig Barnehageutdanning (Første klasses utmerkelse)</h3>
           <p class="text-secondary mb-1">University of Education, Winneba, Ghana | 2014–2018</p>
-          <p class="text-secondary">CGPA: 3.69/4.00 | Forskning: Bruk av manipulative verktøy for å forbedre grunnleggende aritmetikk</p>
-          <p class="text-secondary">Utmerkelser: Beste kandidatstudent, Dekanens utmerkelsespris, Topp 5 student</p>
         </div>
       </div>
     </section>
@@ -296,34 +254,7 @@
       </div>
     </section>
 
-    <!-- Teaching Philosophy -->
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Undervisningsfilosofi</h2>
-        
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h3>Barnesentrert Læringstilnærming</h3>
-            <ul>
-              <li><strong>Lekbasert læring:</strong> Bruke lek som det primære kjøretøyet for læring og utvikling</li>
-              <li><strong>Inkluderende utdanning:</strong> Støtte alle barn uavhengig av bakgrunn eller læringsbehov</li>
-              <li><strong>Kulturell sensitivitet:</strong> Respektere og inkorporere mangfoldige kulturelle perspektiver</li>
-              <li><strong>Teknologiintegrering:</strong> Bruke utdanningsteknologi for å forbedre læringsopplevelser</li>
-            </ul>
-          </div>
-          
-          <div class="skill-category">
-            <h3>Norske Utdanningsverdier</h3>
-            <ul>
-              <li><strong>Utendørs læring:</strong> Verdsettelse av naturbasert utdanning og utendørsaktiviteter</li>
-              <li><strong>Demokratisk deltakelse:</strong> Oppmuntre barns stemme og deltakelse i læring</li>
-              <li><strong>Holistisk utvikling:</strong> Fokus på sosial, emosjonell og kognitiv vekst</li>
-              <li><strong>Flerspråklig støtte:</strong> Støtte barn fra mangfoldige språklige bakgrunner</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Certificates Gallery -->
     <section class="section">
