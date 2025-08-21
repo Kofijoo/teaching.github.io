@@ -2,8 +2,6 @@
 
 ## Joshua Agyekum - Kompetanse Norge Results
 
-**Link expires:** 22.06.2026
-
 ### Test Results
 
 | Subject Code | Subject | Date | Grade |
