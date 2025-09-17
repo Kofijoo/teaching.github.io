@@ -1,8 +1,6 @@
 # Norwegian Language Test Results
 
-## Joshua Agyekum - Kompetanse Norge Results
-
-### Test Results
+## Kompetanse Norge Results
 
 | Subject Code | Subject | Date | Grade |
 |--------------|---------|------|-------|
