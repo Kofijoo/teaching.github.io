@@ -9,12 +9,6 @@
 | PROVE_NORSK_SKRIV | Norsk skriftlig framstilling (Oslo Voksenopplæring Rosenhof) | 19-05-2025 | B1 |
 | PROVE_NORSK_MUNTLIG | Norsk muntlig (Oslo Voksenopplæring Rosenhof) | 22-05-2025 | B1 |
 
-### Summary
-- **Listening (Lytteforståelse):** B2
-- **Reading (Leseforståelse):** B1  
-- **Writing (Skriftlig framstilling):** B1
-- **Speaking (Muntlig):** B1
-
 *Results from Vitnemålsportalen - Kompetanse Norge*
 
 ---
